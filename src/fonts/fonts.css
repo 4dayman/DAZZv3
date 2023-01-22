@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Vogue';
+    src: url('Vogue.eot');
+    src: local('Vogue'), local('Vogue'),
+        url('Vogue.eot?#iefix') format('embedded-opentype'),
+        url('Vogue.woff') format('woff'),
+        url('Vogue.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800;900&display=swap');
