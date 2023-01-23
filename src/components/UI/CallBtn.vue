@@ -1,6 +1,8 @@
 <template>
     <div class="wrap">
+      <a href="tel:093 446 1590">
         <button class="button"><i class="fa-solid fa-phone"></i></button>
+      </a>
     </div>
 </template>
 <style lang="scss" scoped>
@@ -20,7 +22,7 @@
   letter-spacing: 1.3px;
   font-weight: 700;
   color: #c5c5c5;
-background: linear-gradient(90deg, #808080 0%, #808080 100%);
+  background: linear-gradient(90deg, #808080 0%, #808080 100%);
   border: none;
   border-radius: 100px;
   box-shadow: 12px 12px 24px #808080;
@@ -32,7 +34,7 @@ background: linear-gradient(90deg, #808080 0%, #808080 100%);
   }
 
 .button::before {
-content: '';
+  content: '';
   border-radius: 1000px;
   min-width: calc(60px + 12px);
   min-height: calc(60px + 12px);
